@@ -1,4 +1,4 @@
 # FirstWebSite
 ## Первый Web сайт
 ### АНДРОИД на практике
-![DDDAAASS](android-device-identifiers-featured.jpg "Андроид FOREVER")
+![AndROID](android-device-identifiers-featured.jpg "Андроид FOREVER")
