@@ -1,0 +1,23 @@
+
+       
+       body{background-color: #ffffff;}
+       
+        a:link {color: salmon;}
+        a:visited{color: seagreen;}
+        a:hover{color: black;}
+        a:active{color: yellow;}
+
+        div{
+            size: 42;
+            color: red;
+        }
+
+        p{
+            size: 36px;
+            color: yellow;
+        }
+        input{
+            size: 12;
+            color: blueviolet;
+        }
+
