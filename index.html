@@ -6,89 +6,103 @@
     <meta name="author" content="Elizarov Aleksandr">
     <meta name="discription" content="Погружение в Java через Android">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="" href="style.css">
 
+    <style>
+
+        :in-range {color: green;}
+        :out-of-range{color: rgb(0, 4, 255);}
+
+        
+    </style>
+
+    
 
 
 </head>
 <body>
 
     
+<div>
+    Всем привет!!!
+</div>
 
-   <div>
+<div >
+    
+    Удивительный Мир Гамбола
+</div>
 
-       Всем привет ДАААААААААААААААААА!!! 
+<div id="mycontent">
 
-    <br>
-       <a href="http:www.google.ru">
-           Google Go
-       </a>
+    Живая природа
+</div>
 
-    </div>  
+<form action="">
 
-   
-      <br> <img alt="hummer" src="hummer_front.jpg" >
-      <br>
+    <label for="age">Ваш возраст</label>
+    <input type="number" min="1" max="100" value="10">
 
-      <label for="mycolor">Выбор цвета</label>
-      <input type="color" id="mycolor" name="mycolor"> 
-      
-    <p>
 
-        <input type="file">
 
-    </p>
+</form>
+  
+<div>
+    <input type="color" value="red" >
+</div>
+    
 
-    <p>
-        <form method="GET">
-
-            <select name="Phone" id="phone">
-                <option value="Mega">mega</option>
-                <option value="Tino">tino</option>
-                <option value="Dero">dero</option>
-            </select>
-
-        </form>
-
-        <p>
-
-            <footer>
-
-                <ol>
-
-                    <li>
-                        <a href="http:www.google.ru">Google</a>
-                    </li>
-                    <li>
-                        <a href="http:www.mail.ru">Mail</a>
-                    </li>
-                    <li>
-                        <a href="http:www.namba.kg">Namba</a>
-                    </li>
+<nav contextmenu="">
+    <a href="">sdsds</a>
+    <a href="">dsd</a>
+    <a href="">dsdsd</a>
+</nav>
 
 
 
 
-                </ol>
 
 
-
-
-            </footer>
-
-
-
-
-        </p>
-        
-
-
-    </p>
+<canvas id="myCanvas" width="350" height="250"
+style="background-color:#eee; border: 1px solid #ccc; margin:10px;">
+Ваш браузер не поддерживает Canvas
+</canvas>
+<script>
+var canvas = document.getElementById("myCanvas"), 
+context = canvas.getContext("2d"),
+w = canvas.width,
+h=canvas.height;
  
+var mouse = { x:0, y:0};
+var draw = false;
 
-
-      
+canvas.addEventListener("mousedown", function(e){
  
+mouse.x = e.pageX - this.offsetLeft;
+mouse.y = e.pageY - this.offsetTop;
+draw = true;
+context.beginPath();
+context.moveTo(mouse.x, mouse.y);
+});
+canvas.addEventListener("mousemove", function(e){
+ 
+if(draw==true){
+ 
+    mouse.x = e.pageX - this.offsetLeft;
+    mouse.y = e.pageY - this.offsetTop;
+    context.lineTo(mouse.x, mouse.y);
+    context.stroke();
+}
+});
+canvas.addEventListener("mouseup", function(e){
+ 
+mouse.x = e.pageX - this.offsetLeft;
+mouse.y = e.pageY - this.offsetTop;
+context.lineTo(mouse.x, mouse.y);
+context.stroke();
+context.closePath();
+draw = false;
+});
+</script>
     
 </body>
 </html>

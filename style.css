@@ -1,23 +1,27 @@
 
        
-       body{background-color: #83fc5e;}
+       *{background-color: #b8aeae;
+         background-repeat: round;
+         background-size: 100%, 100%;
+         background-origin: content-box;}
        
         a:link {color: salmon;}
         a:visited{color: seagreen;}
         a:hover{color: black;}
         a:active{color: yellow;}
 
+        #mycontent{
+               font-size: 16px;
+               color: rgb(12, 14, 128);}
+
         div{
-            size: 42;
-            color: red;
-        }
-
-        p{
-            size: 36;
-            color: yellow;
-        }
-        input{
-            size: 12;
-            color: blueviolet;
-        }
-
+               
+               font-family: Arial, Helvetica, sans-serif;
+               background-color: darkgoldenrod;
+               border-color: rgb(100%, 0%, 0%);
+               border-style: dotted;
+               font-size: 32px;
+               
+               color: chartreuse;
+             
+       margin: 5px;}
