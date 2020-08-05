@@ -5,104 +5,35 @@
     <title>Андроид на практике</title>
     <meta name="author" content="Elizarov Aleksandr">
     <meta name="discription" content="Погружение в Java через Android">
+    <link rel="stylesheet" href="style.css">
+    <link rel="ICON" href="favicon.png" type="ICON">
 
-    <link rel="stylesheet" type="" href="style.css">
-
-    <style>
-
-        :in-range {color: green;}
-        :out-of-range{color: rgb(0, 4, 255);}
-
-        
-    </style>
-
-    
-
-
-</head>
-<body>
-
-    
-<div>
-    Всем привет!!!
-</div>
-
-<div >
-    
-    Удивительный Мир Гамбола
-</div>
-
-<div id="mycontent">
-
-    Живая природа
-</div>
-
-<form action="">
-
-    <label for="age">Ваш возраст</label>
-    <input type="number" min="1" max="100" value="10">
-
-
-
-</form>
   
-<div>
-    <input type="color" value="red" >
-</div>
+</head>
+
+<body>
+    <div id = "top">
+            Проекты на андроиде   
+    </div>
+
+    <div id = "top_menu">
+
+        <a href="http://www.google.ru">Управление по BlueTooth</a>   
+        
+        <a href="">Одометр</a> 
+       
+        <a href="">Разно рире</a>
+      
+
+    </div>
+
+            
+       
+
     
 
-<nav contextmenu="">
-    <a href="">sdsds</a>
-    <a href="">dsd</a>
-    <a href="">dsdsd</a>
-</nav>
 
-
-
-
-
-
-<canvas id="myCanvas" width="350" height="250"
-style="background-color:#eee; border: 1px solid #ccc; margin:10px;">
-Ваш браузер не поддерживает Canvas
-</canvas>
-<script>
-var canvas = document.getElementById("myCanvas"), 
-context = canvas.getContext("2d"),
-w = canvas.width,
-h=canvas.height;
- 
-var mouse = { x:0, y:0};
-var draw = false;
-
-canvas.addEventListener("mousedown", function(e){
- 
-mouse.x = e.pageX - this.offsetLeft;
-mouse.y = e.pageY - this.offsetTop;
-draw = true;
-context.beginPath();
-context.moveTo(mouse.x, mouse.y);
-});
-canvas.addEventListener("mousemove", function(e){
- 
-if(draw==true){
- 
-    mouse.x = e.pageX - this.offsetLeft;
-    mouse.y = e.pageY - this.offsetTop;
-    context.lineTo(mouse.x, mouse.y);
-    context.stroke();
-}
-});
-canvas.addEventListener("mouseup", function(e){
- 
-mouse.x = e.pageX - this.offsetLeft;
-mouse.y = e.pageY - this.offsetTop;
-context.lineTo(mouse.x, mouse.y);
-context.stroke();
-context.closePath();
-draw = false;
-});
-</script>
     
 </body>
+
 </html>
