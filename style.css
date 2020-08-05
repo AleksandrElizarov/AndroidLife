@@ -6,10 +6,10 @@
               background-origin: content-box;}
      
               #top{
-                   height: 2em;
+                   height: 25px;
                    background-color:#31e40d;
                    color: #ffffff;
-                   font-size: 1em;
+                   font-weight: bold;
                    text-align: center;
                    font-style: italic;
      
