@@ -1,27 +1,68 @@
 
        
-       *{background-color: #b8aeae;
-         background-repeat: round;
-         background-size: 100%, 100%;
-         background-origin: content-box;}
-       
-        a:link {color: salmon;}
-        a:visited{color: seagreen;}
-        a:hover{color: black;}
-        a:active{color: yellow;}
-
-        #mycontent{
-               font-size: 16px;
-               color: rgb(12, 14, 128);}
-
-        div{
+       *{background-color: #ffffff;
+              background-repeat: round;
+              background-size: 100%, 100%;
+              background-origin: content-box;}
+     
+              #top{
+                   height: 41px;
+                   background-color:#31e40d;
+                   color: #ffffff;
+                   font-size: 34px;
+                   text-align: center;
+                   font-style: italic;
+     
+                  }    
+     
+              #top_menu{
+                   background-color:#ffffff;
+                   display: inline;
+                   font-size: 36px;
+                   text-align: justify;
+                  } 
+     
+               #top_menu a{ 
+                    color: rgb(22, 96, 192);
+                   }   
+     
+     
+     
+           
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+            
+             a:link {color: salmon;}
+             a:visited{color: seagreen;}
+             a:hover{color: black;}
+             a:active{color: yellow;}
+     
+             #mycontent{
+                    font-size: 16px;
+                    color: rgb(12, 14, 128);}
+     
+             #div{
+                    
+                    font-family: Arial, Helvetica, sans-serif;
+                    background-color: darkgoldenrod;
+                    border-color: rgb(100%, 0%, 0%);
+                    border-style: dotted;
+                    font-size: 32px;
+                    
+                    color: chartreuse;
+                    margin: 5px;}
+     
+     
                
-               font-family: Arial, Helvetica, sans-serif;
-               background-color: darkgoldenrod;
-               border-color: rgb(100%, 0%, 0%);
-               border-style: dotted;
-               font-size: 32px;
-               
-               color: chartreuse;
-             
-       margin: 5px;}
