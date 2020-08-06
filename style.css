@@ -18,12 +18,16 @@
      
               #top_menu{
                    background-color:#ffffff;
-                   display: inline;
-                   font-size: 36px;
-                   text-align: justify;
+                   font-size: 28px;
+                   
                   } 
+
+              #top_menu ul{ 
+                     
+                    }       
      
                #top_menu a{ 
+                     text-align: center;
                     color: rgb(22, 96, 192);
                    }   
      
